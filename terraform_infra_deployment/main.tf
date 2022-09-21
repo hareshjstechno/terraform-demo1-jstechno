@@ -458,12 +458,12 @@ resource "aws_codepipeline" "node_app_pipeline" {
             {
               name  = "AWS_ACCOUNT_ID"
               type  = "PARAMETER_STORE"
-              value = "ACCOUNT_ID"
+              value = "755190800917"
             },
             {
               name  = "IMAGE_REPO_NAME"
               type  = "PLAINTEXT"
-              value = "nodeapp"
+              value = ""
             },
             {
               name  = "IMAGE_TAG"
@@ -569,7 +569,7 @@ resource "aws_codepipeline" "python_app_pipeline" {
             {
               name  = "AWS_ACCOUNT_ID"
               type  = "PARAMETER_STORE"
-              value = "ACCOUNT_ID"
+              value = "755190800917"
             },
             {
               name  = "IMAGE_REPO_NAME"
@@ -682,7 +682,7 @@ resource "aws_codepipeline" "go_app_pipeline" {
             {
               name  = "AWS_ACCOUNT_ID"
               type  = "PARAMETER_STORE"
-              value = "ACCOUNT_ID"
+              value = "755190800917"
             },
             {
               name  = "IMAGE_REPO_NAME"
